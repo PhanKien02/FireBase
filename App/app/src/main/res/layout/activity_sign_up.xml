@@ -7,22 +7,10 @@
     tools:context=".SignUp_Activity"
     android:background="#004455">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="186dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_yody" />
-
     <EditText
         android:id="@+id/editTextName_signup"
         android:layout_width="337dp"
         android:layout_height="57dp"
-        android:layout_marginTop="40dp"
         android:background="@drawable/style_border"
         android:drawableTint="#C1BBBB"
         android:ems="10"
@@ -30,8 +18,9 @@
         android:inputType="textPersonName"
         android:paddingLeft="15dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        tools:layout_editor_absoluteY="225dp" />
 
     <EditText
         android:id="@+id/editTextPhone_signup"
